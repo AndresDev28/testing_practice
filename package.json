@@ -1,0 +1,25 @@
+{
+  "name": "testing_practice",
+  "version": "1.0.0",
+  "description": "First testing assignment from The Odin Project",
+  "homepage": "https://github.com/AndresDev28/testing_practice#readme",
+  "bugs": {
+    "url": "https://github.com/AndresDev28/testing_practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresDev28/testing_practice.git"
+  },
+  "license": "ISC",
+  "author": "AndresDev28",
+  "type": "commonjs",
+  "main": "babel.config.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
